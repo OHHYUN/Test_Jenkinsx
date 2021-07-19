@@ -22,7 +22,7 @@ spec:
   - key: staging
   - key: production
   ingress:
-    domain: 10.101.188.52
+    domain: affb1723ced4943d194076e077bc1ea6-8b4bb608f7e2b62c.elb.ap-northeast-2.amazonaws.com
     externalDNS: false
     kind: ingress
     namespaceSubDomain: -jx.
