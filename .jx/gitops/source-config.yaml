@@ -9,8 +9,5 @@ spec:
     providerKind: github
     repositories:
     - name: Spring_Boot_Web_With_AWS
+    - name: jenkins-repo
     scheduler: in-repo
-  slack:
-    channel: '#jenkins-x-pipelines'
-    kind: failureOrNextSuccess
-    pipeline: release
