@@ -1,0 +1,22 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: OHHYUN
+    provider: github
+    repository: Spring_Boot_Web_With_AWS
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+  name: ohhyun-spring-boot-web-with-aws
+  namespace: jx
+spec:
+  httpCloneURL: https://github.com/OHHYUN/Spring_Boot_Web_With_AWS.git
+  org: OHHYUN
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: Spring_Boot_Web_With_AWS
+  scheduler:
+    kind: ""
+    name: in-repo
+  url: https://github.com/OHHYUN/Spring_Boot_Web_With_AWS

@@ -19,7 +19,7 @@ metadata:
   namespace: jx
 spec:
   rules:
-    - host: dashboard-jx.10.107.0.217
+    - host: dashboard-jx.affb1723ced4943d194076e077bc1ea6-8b4bb608f7e2b62c.elb.ap-northeast-2.amazonaws.com
       http:
         paths:
           - pathType: ImplementationSpecific

@@ -7,6 +7,7 @@ data:
       LinkURL: null
     in_repo_config:
       enabled:
+        OHHYUN/Spring_Boot_Web_With_AWS: true
         OHHYUN/Test_Jenkinsx: true
     plank: {}
     pod_namespace: jx
@@ -19,6 +20,7 @@ data:
         required-if-present-contexts: null
         skip-unknown-contexts: false
       merge_method:
+        OHHYUN/Spring_Boot_Web_With_AWS: merge
         OHHYUN/Test_Jenkinsx: merge
       queries:
       - labels:
@@ -31,6 +33,7 @@ data:
         - needs-rebase
         repos:
         - OHHYUN/Test_Jenkinsx
+        - OHHYUN/Spring_Boot_Web_With_AWS
       - labels:
         - updatebot
         missingLabels:
@@ -41,7 +44,8 @@ data:
         - needs-rebase
         repos:
         - OHHYUN/Test_Jenkinsx
-      target_url: http://lighthouse-jx.10.107.0.217/merge/status
+        - OHHYUN/Spring_Boot_Web_With_AWS
+      target_url: http://lighthouse-jx.affb1723ced4943d194076e077bc1ea6-8b4bb608f7e2b62c.elb.ap-northeast-2.amazonaws.com/merge/status
 kind: ConfigMap
 metadata:
   creationTimestamp: null

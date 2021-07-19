@@ -20,4 +20,4 @@ spec:
                 port:
                   number: 80
             path: "/hook"
-      host: hook-jx.10.107.0.217
+      host: hook-jx.affb1723ced4943d194076e077bc1ea6-8b4bb608f7e2b62c.elb.ap-northeast-2.amazonaws.com

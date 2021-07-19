@@ -39,7 +39,7 @@ spec:
             - -resync-interval
             - 60s
             - -pipeline-trace-url-template
-            - http://grafana-jx-observability.10.107.0.217/explore?left=%5B%22now%22,%22now%22,%22Tempo%22,%7B%22query%22:%22{{.TraceID}}%22%7D%5D
+            - http://grafana-jx-observability.affb1723ced4943d194076e077bc1ea6-8b4bb608f7e2b62c.elb.ap-northeast-2.amazonaws.com/explore?left=%5B%22now%22,%22now%22,%22Tempo%22,%7B%22query%22:%22{{.TraceID}}%22%7D%5D
             - -log-level
             - INFO
           ports:
